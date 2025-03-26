@@ -1,326 +1,1080 @@
-Cryptex - Buy & Sell Digital Assets In The cryptex
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Argos Analytics</title>
 
 
-#---------- HEADER ----------#
+  <link rel="shortcut icon" href="./assets/images/logo/argosAnalytics_logo.png" type="image/svg+xml">
 
-alt = Cryptex logo
-Cryptex
 
-Homepage
-Buy Crypto
-Markets
-Sell Crypto
-Blog
-BITUSDT
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/navDrop.css">
 
-aria-label = Toggle menu
 
-Wallet
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
 
+<body>
 
 
+  <header class="header" data-header>
+    <div class="container">
 
+      <a href="https://www.argosanalyticsfx.com" class="logo">
+        <img src="./assets/images/logo/argosAnalytics_logo.png" width="50" height="50" alt="Cryptex logo">
+      
+      </a>
 
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
 
+          <li class="navbar-item">
+            <a href="https://www.argosanalyticsfx.com" class="navbar-link active" data-nav-link>Home</a>
+          </li>
 
+          <div class="dropdown">
+            <button class="dropbtn">Analysis
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="trading.html">Live Charts</a>
+              <a href="tradeDoubleChart.html">Double Chart</a>
+              <a href="tradeTripple.html">Tripple Charts</a>
+            </div>
+          </div>
 
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Strategies</a>
+          </li>
 
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Products</a> <!--dropdown (strats, signals, courses)-->
+            
+          </li>
 
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Education</a><!--dropdown (educational vids, ArgosAnalytics_Careers)-->
+          </li>
 
+          <li class="navbar-item">
+            <a href="https://one.exnesstrack.org/a/djylph9ov2" class="navbar-link" data-nav-link>Exness Partnership</a> <!--(exness)-->
+          </li>
 
+        </ul>
+      </nav>
 
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
 
+      <a href="https://t.me/argos_analytics" class="btn btn-outline" target="_blank">Telegram</a>
 
+    </div>
+  </header>
 
 
 
 
 
+  <main>
+    <article>
 
+     
 
+      <section class="section hero" aria-label="hero" data-section>
+        <div class="container">
 
+          <div class="hero-content">
 
+            <h1 class="h1 hero-title">Upgrade The Way You Trade</h1>
 
+            <p class="hero-text">
+              Trade easier, safer, faster and benefit from our Professional Signal Services.
+            </p>
 
+            <a href="https://t.me/argos_analytics" class="btn btn-primary" target="_blank">Join Our Telegram</a>
 
+          </div>
 
+          <figure class="hero-banner">
+            <img src="./assets/images/banner/hero-banner.png" width="570" height="448" alt="hero banner" class="w-100">
+          </figure>
 
+        </div>
+      </section>
 
 
 
 
+
+
+      <section class="section trend" aria-label="crypto trend" data-section>
+        <div class="container">
+
+
+
+
+          <div class="trend-tab">
+
+            <ul class="tab-nav">
+
+              <li>
+                <button class="tab-btn">
+                  <a href="#" style="font-size: 25px;">TRADE WHAT WE TRADE, MAKE WHAT WE MAKE</a>
+                </button>
+              </li>
+
+            </ul>
+
+            <ul class="tab-content">
+
+              <li>
+                <div class="trend-card">
+
+                  
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "CAPITALCOM:GOLD",
+  "width": 290,
+  "height": 170,
+  "locale": "en",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "autosize": false,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+
+
+                </div>
+              </li>
+
+              <li>
+                <div class="trend-card">
+
+                
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "CAPITALCOM:US30",
+  "width": 290,
+  "height": 170,
+  "locale": "en",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "autosize": false,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+
+
+                </div>
+              </li>
+
+              <li>
+                <div class="trend-card">
+                 
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "ICMARKETS:USTEC",
+  "width": 290,
+  "height": 170,
+  "locale": "en",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "autosize": false,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="trend-card">
+                
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
+  {
+  "symbol": "ICMARKETS:JP225",
+  "width": 300,
+  "height": 170,
+  "locale": "en",
+  "dateRange": "1D",
+  "colorTheme": "dark",
+  "isTransparent": true,
+  "autosize": false,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+
+                </div>
+              </li>
+
+            </ul>
+         
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://t.me/argos_analytics" rel="noopener nofollow" target="_blank"><span class="blue-text">Join our Telegram Channel for VIP Signals </span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "description": "",
+      "proName": "OANDA:EURUSD"
+    },
+    {
+      "description": "",
+      "proName": "OANDA:GBPUSD"
+    },
+    {
+      "description": "",
+      "proName": "OANDA:USDJPY"
+    },
+    {
+      "description": "",
+      "proName": "OANDA:AUDUSD"
+    },
+    {
+      "description": "",
+      "proName": "BINANCE:BTCUSD"
+    },
+    {
+      "description": "",
+      "proName": "CAPITALCOM:SOLUSD"
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": true,
+  "displayMode": "adaptive",
+  "colorTheme": "dark",
+  "locale": "en"
+}
+  </script>
+</div>
+
+
+          </div>
+ 
+        </div>
+      </section>
+
+
+     
+
+
+        
+  
+    
+      <section class="section about" aria-label="about" data-section>
+        <div class="container">
+<div class="pc">
+          <figure class="about-banner">
+           
+<div class="tradingview-widget-container"
+  style="
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 14px;
+    grid-auto-rows: 1fr;
+
+    @media (width >= 40em) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @media (width >= 60em) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  "
+>
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+  {
+  "symbols": [
+    [
+      "CAPITALCOM:GOLD|ALL"
+    ],
+    [
+      "CAPITALCOM:US30|ALL"
+    ],
+    [
+      "ICMARKETS:USTEC|ALL"
+    ],
+    [
+      "ICMARKETS:JP225|ALL"
+    ],
+    [
+      "OANDA:EURUSD|ALL"
+    ],
+    [
+      "OANDA:GBPUSD|ALL"
+    ],
+    [
+      "OANDA:USDJPY|ALL"
+    ],
+    [
+      "COINBASE:BTCUSD|ALL"
+    ],
+    [
+      "COINBASE:ETHUSD|ALL"
+    ]
+  ],
+  "chartOnly": false,
+  "height": "500",
+  "width": "100%",
+  "locale": "en",
+  "colorTheme": "dark",
+  "autosize": false,
+  "showVolume": true,
+  "showMA": false,
+  "hideDateRanges": false,
+  "hideMarketStatus": false,
+  "hideSymbolLogo": false,
+  "scalePosition": "right",
+  "scaleMode": "Normal",
+  "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+  "fontSize": "10",
+  "noTimeScale": false,
+  "valuesTracking": "1",
+  "changeMode": "price-and-percent",
+  "chartType": "area",
+  "headerFontSize": "medium",
+  "volumeUpColor": "rgba(91, 156, 246, 0.5)",
+  "volumeDownColor": "rgba(149, 117, 205, 0.5)",
+  "lineWidth": 1,
+  "lineType": 0,
+  "dateRanges": [
+    "1m|30",
+    "3m|60",
+    "12m|1D",
+    "all|1M"
+  ],
+  "lineColor": "rgba(0, 188, 212, 1)",
+  "topColor": "rgba(49, 121, 245, 0.23)",
+  "bottomColor": "rgba(126, 87, 194, 0.24)",
+  "upColor": "rgba(91, 156, 246, 1)",
+  "downColor": "rgba(126, 87, 194, 1)",
+  "borderUpColor": "rgba(91, 156, 246, 1)",
+  "borderDownColor": "rgba(126, 87, 194, 1)",
+  "wickUpColor": "rgba(91, 156, 246, 1)",
+  "wickDownColor": "rgba(126, 87, 194, 1)",
+  "dateFormat": "dd MMM 'yy"
+}
+  </script>
+</div>
+
+          </figure>
+        </div>
+
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">See the Markets Differently</h2>
+
+            <p class="section-text">
+              Trading isn’t just numbers on a screen—it’s about timing, precision, and the thrill of getting it right. 
+              We help you see what others miss, with expert signals for GOLD, Nasdaq, US30, and more.
+              No guesswork. No noise. Just clear, high-probability setups that put you ahead of the game. 
+            </p>
+
+            <ul class="section-list">
+
+              <li class="section-item">
+                <div class="title-wrapper">
+                  <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+                 
+                  <h3 class="h3 list-title">Get real-time market updates</h3>
+                </div>
+
+                <p class="item-text">
+                  View the market for what it is.<br>We provide real-time market conditions for real time entries.
+                </p>
+              </li>
+
+              <li class="section-item">
+                <div class="title-wrapper">
+                  <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 list-title">Get expert insights</h3>
+                </div>
+
+                <p class="item-text">
+                  Gain market-leading insights from our analysts with daily and weekly in-depth market analysis
+                </p>
+              </li>
+
+            </ul>
+
+            <a href="https://t.me/argos_analytics" class="btn btn-primary">HOW TO JOIN</a>
+
+          </div>
+
+        </div>
+        </section>
+
+    
+
+   
+
+      <section class="section instruction" aria-label="instruction" data-section>
+        <div class="container">
+
+          <h2 class="h2 section-title">How It Works</h2>
+
+          <p class="section-text">
+            argos analytics provides signals on our telegram VIP telegram, with all the analysis needed for winning trades.
+          </p>
+
+          <ul class="instruction-list">
+
+            <li>
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/instruction-1.png" width="96" height="96" loading="lazy" alt="Step 1"
+                    class="img">
+                </figure>
+
+                <p class="card-subtitle">Step 1</p>
+
+                <h3 class="h3 card-title">Sign-Up</h3>
+<a href="https://one.exnesstrack.org/a/djylph9ov2">
+                <p class="card-text">
+                  Create an Account with our Partner Broker.<a href="https://one.exnesstrack.org/a/djylph9ov2" style="color: hsl(142, 43%, 54%);">Sign Up</a>
+                </p>
+              </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/instruction-2.png" width="96" height="96" loading="lazy" alt="Step 2"
+                    class="img">
+                </figure>
+
+                <p class="card-subtitle">Step 2</p>
+
+                <h3 class="h3 card-title">Deposit</h3>
+
+                <p class="card-text">
+                  Make your first deposit to activate your account
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/instruction-3.png" width="96" height="96" loading="lazy" alt="Step 3"
+                    class="img">
+                </figure>
+
+                <p class="card-subtitle">Step 3</p>
+
+                <h3 class="h3 card-title">Start Trading</h3>
+
+                <p class="card-text">
+                  Contact our admin on telegram to start getting VIP Signals 
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="instruction-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/instruction-4.png" width="96" height="96" loading="lazy" alt="Step 4"
+                    class="img">
+                </figure>
+
+                <p class="card-subtitle">Step 4</p>
+
+                <h3 class="h3 card-title">Earn</h3>
+
+                <p class="card-text">
+                  make use of all the tools and signals now at your disposal.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <section class="section about" aria-label="about" data-section>
+        <div class="container">
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">Argos & Exness</h2>
+
+            <p class="section-text">
+              
+              Experience top-tier trading with Argos Analytics and our trusted partner, 
+              Exness. Access industry-leading tools, tight spreads, and seamless execution to enhance your trading journey.
+            </p>
+
+            <ul class="section-list">
+
+              <li class="section-item">
+                <div class="title-wrapper">
+                  <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 list-title">Low Spreads & Lightning-Fast Execution</h3>
+                </div>
+
+                <p class="item-text">
+                  Trade with ultra-low spreads and rapid execution, ensuring precise market entries and exits.
+                </p>
+              </li>
+
+              <li class="section-item">
+                <div class="title-wrapper">
+                  <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 list-title">Trade Forex, Crypto, Stocks & More</h3>
+                </div>
+
+                <p class="item-text">
+                  Diversify with Forex, Crypto, Indices, and Commodities—all on a secure and regulated platform.
+                </p>
+              </li>
+
+            </ul>
+
+            <a href="https://www.exnesspromo.com/en/efficient-way-to-trade-stocks?partner_id=djylph9ov2" class="btn btn-primary" target="_blank" >Explore More</a>
+
+          </div>
+
+
+          <figure class="about-banner">
+            <br>
+              <a href="https://one.exnesstrack.org/intl/en/a/djylph9ov2" target="_blank">
+                <img src="https://d3dpet1g0ty5ed.cloudfront.net/EN_Major_20indices_20lower_20costs_1200x628.png" width="748" height="436" loading="lazy" alt="" class="w-100"/>
+              </a>
+          </figure>
+
+          
+
+        </div>
+      </section>
+
+
+
+
+        <section class="section market" aria-label="market update" data-section>
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Market Data: High Yeilding Signals</h2>
+
+            <a href="#" class="btn-link">Telegram</a>
+          </div>
+
+          <div class="market-tab">
+
+            <table class="market-table">
+
+              
+<div class="tradingview-widget-container"
+style="
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+gap: 14px;
+grid-auto-rows: 1fr;
+
+@media (width >= 40em) {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (width >= 60em) {
+  grid-template-columns: repeat(4, 1fr);
+}
+"
+>
+  <div class="tradingview-widget-container__widget"></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+  {
+  "width": "100%",
+  "height": "350",
+  "symbolsGroups": [
+    {
+      "name": "Indices",
+      "originalName": "Indices",
+      "symbols": [
+        {
+          "name": "CAPITALCOM:US30"
+        },
+        {
+          "name": "ICMARKETS:USTEC"
+        },
+        {
+          "name": "ICMARKETS:JP225"
+        }
+      ]
+    },
+    {
+      "name": "Futures",
+      "originalName": "Futures",
+      "symbols": [
+        {
+          "name": "COMEX:GC1!",
+          "displayName": "Gold"
+        }
+      ]
+    },
+    {
+      "name": "Forex",
+      "originalName": "Forex",
+      "symbols": [
+        {
+          "name": "FX:EURUSD",
+          "displayName": "EUR to USD"
+        },
+        {
+          "name": "FX:GBPUSD",
+          "displayName": "GBP to USD"
+        },
+        {
+          "name": "FX:USDJPY",
+          "displayName": "USD to JPY"
+        }
+      ]
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": false,
+  "colorTheme": "dark",
+  "locale": "en"
+}
+  </script>
+</div>
+
+
+             
+
+              <tbody class="table-body">
+
+                <tr class="table-row">
+
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">1</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <img src="./assets/images/tradeIcon/gold.png" width="20" height="20" alt="Cardano logo" class="img">
+
+                      <h3>
+                        <a href="#" class="coin-name">GOLD<span class="span">XAU/USD</span></a>
+                      </h3>
+                    </div>
+                  </td>
+
+                  <td class="table-data last-price">Master the most traded commodity in the world</td>
+
+                  <td></td>
+
+                  <td class="table-data market-cap" style="color: hsl(142, 43%, 54%);">Trade Breakdowns</td>
+
+                  <td class="table-data">
+                    
+                  </td>
+
+                  <td class="table-data">
+                    <button class="btn btn-outline"><a href="https://t.me/argos_analytics">Get Signals</a></button>
+                  </td>
+
+                </tr>
+
+                <tr class="table-row">
+
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">2</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <img src="./assets/images/tradeIcon/gold.png" width="20" height="20" alt="Cardano logo" class="img">
+
+                      <h3>
+                        <a href="#" class="coin-name">NASDAQ 100<span class="span">USTEC/US100</span></a>
+                      </h3>
+                    </div>
+                  </td>
+
+                  <td class="table-data last-price">Explosive moves on tech stocks like never before!</td>
+
+                  <td></td>
+
+                  <td class="table-data market-cap" style="color: hsl(142, 43%, 54%);">News Events</td>
+
+                  <td>
+           
+                  </td>
+
+                  <td class="table-data">
+                    <button class="btn btn-outline"><a href="https://t.me/argos_analytics">Get Signals</a></button>
+                  </td>
+
+                </tr>
+
+                <tr class="table-row">
+
+                  <td class="table-data">
+                    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+                      <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+                    </button>
+                  </td>
+
+                  <th class="table-data rank" scope="row">3</th>
+
+                  <td class="table-data">
+                    <div class="wrapper">
+                      <img src="./assets/images/tradeIcon/gold.png" width="20" height="20" alt="Cardano logo" class="img">
+
+                      <h3>
+                        <a href="#" class="coin-name">DOW JONES <span class="span">US30</span></a>
+                      </h3>
+                    </div>
+                  </td>
+
+                  <td class="table-data last-price"> Tap into the heartbeat of the U.S. economy</td>
+
+                  <td></td>
+
+                  <td class="table-data market-cap" style="color: hsl(142, 43%, 54%);">Turn Volatility into Profit</td>
+
+                  <td >
+                  
+                  </td>
+
+                  <td class="table-data">
+                    <button class="btn btn-outline"><a href="https://t.me/argos_analytics">Get Signals</a></button>
+                  </td>
+
+                </tr>
+              
+
+              </tbody>
+            
+
+            </table>
+
+          </div>
+
+        </div>
+      </section>
+
+    
+
+
+
+
+
+
+
+
+      <section class="section app" aria-label="app" data-section>
+        <div class="container">
+
+          <div class="app-content">
+
+            <h2 class="h2 section-title">Free Your Money & Join With our Partner Broker, Exness</h2>
+
+            <p class="section-text">
+              With Argos Analytics & Exness, you can be sure your wealth will Grow
+            </p>
+
+            <ul class="section-list">
+
+              <li class="section-item">
+                <div class="title-wrapper">
+                  <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 item-title">Buying, Selling, & Trading Done With You</h3>
+                </div>
+
+                <p class="item-text">
+                  Analysis Done By Argos Experts, The Best Signals In The Game
+                </p>
+              </li>
+
+              <li class="section-item">
+                <div class="title-wrapper">
+                  <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 item-title">Take Control Of Your Wealth</h3>
+                </div>
+
+                <p class="item-text">
+                  Rest Assured Your Wealth Will Grow with Argos & Exness.
+                </p>
+              </li>
+
+            </ul>
+
+            <div class="app-wrapper">
+              <a href="https://one.exnesstrack.org/intl/en/a/djylph9ov2">
+                <img src="./assets/images/googleplay.png" width="135" height="40" loading="lazy"
+                  alt="get it on google play">
+              </a>
+
+              <a href="https://one.exnesstrack.org/intl/en/a/djylph9ov2">
+                <img src="./assets/images/appstore.png" width="120" height="40" loading="lazy"
+                  alt="download on the app store">
+              </a>
+            </div>
+
+          </div>
+
+          <div class="app-banner">
+            <a href="https://one.exnesstrack.org/intl/en/a/djylph9ov2" target="_blank">
+              <img src="https://d3dpet1g0ty5ed.cloudfront.net/EN_Take_Control_300x600px.gif" width="300" height="600" alt="" />
+            </a>
+          </div>
+
+          
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+
+  <footer class="footer">
+
+    <div class="footer-top" data-section>
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="https://www.argosanalyticsfx.com" class="logo">
+            <img src="./assets/images/logo/argosAnalytics_logo.png" width="50" height="50" alt="Cryptex logo">
+            Argos Analytics
+          </a>
+
+          <h2 class="footer-title">Let's talk! 🤙</h2>
+       
+          <a href="https://t.me/ArgosAnalytics" class="footer-contact-link" target="_blank">Telegram: @ArgosAnalytics</a>
+     
+          <address class="footer-contact-link">
+            Feel free to contact our admin team for any queries or needed assistance
+          </address>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Products</p>
+          </li>
+
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Spot</a>
+          </li>
+
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Inverse Perpetual</a>
+          </li>
+
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">USDT Perpetual</a>
+          </li>
+
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Exchange</a>
+          </li>
+
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Launchpad</a>
+          </li>
+
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Binance Pay</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Trade Forex</a>
+          </li>
+
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Markets</a>
+          </li>
+
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Trading Fee</a>
+          </li>
+
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Affiliate Program</a>
+          </li>
+
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Referral Program</a>
+          </li>
 
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Education</a>
+          </li>
 
+        </ul>
 
-#---------- HERO ----------#
+        <ul class="footer-list">
 
-Buy & Sell Digital Assets In The Cryptex
+          <li>
+            <p class="footer-list-title">Support</p>
+          </li>
 
-Coin Cryptex is the easiest, safest, and fastest way to buy & sell crypto asset exchange.
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Argos Education</a>
+          </li>
 
-Get started now
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Help Center</a>
+          </li>
 
-alt = hero banner
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">User Feedback</a>
+          </li>
 
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Submit a request</a>
+          </li>
 
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Documentation</a>
+          </li>
 
-#---------- TREND ----------#
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Trading Rules</a>
+          </li>
 
-Crypto
-DeFi
-BSC
-NFT
-Metaverse
-Polkadot
-Solana
-Opensea
-Makersplace
+        </ul>
 
-alt = bitcoin logo
+        <ul class="footer-list">
 
-Bitcoin
-BTC/USD
+          <li>
+            <p class="footer-list-title">Argos Analytics</p>
+          </li>
 
-USD 46,168.95
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">About Us</a>
+          </li>
 
-36,641.20
--0.79%
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Authenticity Check</a>
+          </li>
 
-alt = ethereum logo
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link">Careers</a>
+          </li>
 
-Ethereum
-ETH/USD
+          <li>
+            <a href="https://t.me/argosanalytics" class="footer-link" target="_blank">Business Contacts</a>
+          </li>
 
-USD 3,480.04
+        </ul>
 
-+10.55%
+      </div>
+    </div>
 
-alt = tether logo
+    <div class="footer-bottom">
+      <div class="container">
 
-Tether
-USDT/USD
+        <p class="copyright">
+          &copy; 2025 Argos Analytics. All Rights Reserved. Designed & Maintained by <a href="https://icarusdigimarketing.com" class="copyright-link">Icarus Digital Marketing (Pty) Ltd.</a>
+        </p>
 
-USD 1.00
+        <ul class="social-list">
 
--0.01%
+          <li>
+            <a href="https://www.tiktok.com/@argosanalytics" class="social-link">
+              <ion-icon name="logo-tiktok"></ion-icon>
+            </a>
+          </li>
 
-alt = bnb logo
+          <li>
+            <a href="https://www.instagram.com/argosanalytics/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
 
-BNB
-BNB/USD
 
-USD 443.56
+        </ul>
 
--1.24%
+      </div>
+    </div>
 
+  </footer>
 
 
-#---------- MARKET ----------#
 
-Market Update
 
-See All Coins
 
-View All
-Metaverse
-Entertainment
-Energy
-NFT
-Gaming
-Music
+  <script src="./assets/js/script.js" defer></script>
 
-#
-Name
-Last Price
-24h %
-Market Cap
-Last 7 Days	
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-aria-label = Add to favourite
-<ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
-<ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+</body>
 
-1
-alt = Bitcoin logo
-Bitcoin
-BTC
-$56,623.54
-+1.45%
-$880,423,640,582
-alt = profit chart
-Trade
-
-2
-alt = Ethereum logo
-Ethereum
-ETH
--5.12%
-alt = loss chart
-
-3
-alt = Tether logo
-Tether
-USDT/USD
-+1.45%
-alt = profit chart
-
-4
-alt = BNB logo
-BNB
-BNB/USD
--3.75%
-
-5
-alt = Solana logo
-Solana
-SOL
-+1.45%
-
-6
-alt = XRP logo
-XRP
-XRP
--2.22%
-alt = loss chart
-
-7
-alt = Cardano logo
-Cardano
-ADA
-+0.8%
-alt = profit chart
-
-8
-alt = Avalanche logo
-Avalanche
-AVAX
-+1.41%
-
-
-
-#---------- INSTRUCTION ----------#
-
-How It Work
-
-Stacks is a production-ready library of stackable content blocks built in React Native.
-
-alt = Step 1
-Step 1
-
-Download
-
-Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.
-
-Step 2
-Connect Wallet
-
-Step 3
-Start Trading
-
-Step 4
-Earn Money
-
-
-
-#---------- ABOUT ----------#
-
-alt = about banner
-
-What Is Cryptex
-
-Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.
-
-<ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
-View real-time cryptocurrency prices
-
-Experience a variety of trading on Bitcost. You can use various types of coin transactions such as Spot Trade, Futures Trade, P2P, Staking, Mining, and margin.
-
-Buy and sell BTC, ETH, XRP, OKB, Etc...
-
-Explore More
-
-
-
-#---------- APP ----------#
-
-Free Your Money & Invest With Confident
-
-With Cryptor Trade, you can be sure your trading skills are matched
-
-<ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
-
-Buy, Sell, And Trade On The Go
-
-Manage Your Holdings From Your Mobile Decive
-
-Take Control Of Your Wealth
-
-Rest Assured You (And Only You) Have Access To Your Funds
-
-alt = get it on google play
-alt = download on the app store
-
-alt = app banner
-Scan To Download
-
-
-
-#---------- FOOTER ----------#
-
-alt = Cryptex logo
-Cryptex
-
-Let's talk! 🤙
-+12 345 678 9101
-
-hello.cryptex@gmail.com
-
-Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522
-
-Products
-
-Spot
-Inverse Perpetual
-USDT Perpetual
-Exchange
-Launchpad
-Binance Pay
-
-Services
-
-Buy Crypto
-Markets
-Tranding Fee
-Affiliate Program
-Referral Program
-API
-
-Support
-
-Bybit Learn
-Help Center
-User Feedback
-Submit a request
-API Documentation
-Trading Rules
-
-About Us
-
-About Bybit
-Authenticity Check
-Careers
-Business Contacts
-Blog
-
-&copy; 2022 Cryptex All Rights Reserved by codewithsadee
-
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-instagram"></ion-icon>
-<ion-icon name="logo-linkedin"></ion-icon>
-
-
-
-#---------- HEADER ----------#
+</html>
